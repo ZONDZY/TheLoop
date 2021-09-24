@@ -52,3 +52,69 @@
                 align-items: center
                 margin-left: 65px
                 margin-right: 90px
+    &__hero
+        margin-top: 140px
+        display: flex
+        flex-direction: column
+        &__main
+            display: flex
+            justify-content: space-between
+            &-info
+                &__subtitle
+                    +regular
+                    color: $black
+                    font-size: 30px
+                &__title
+                    display: block
+                    +bold
+                    color: $black
+                    font-size: 55px
+                    margin-bottom: 50px
+            &-main
+                &__offer
+                    display: flex
+                    flex-direction: column
+                    margin-right: 0
+                    margin-left: auto
+                    margin-top: -60%
+                    &-normal
+                        +bold
+                        font-size: 24px;
+                        color: $black
+                        text-decoration-line: line-through;
+                        text-transform: uppercase;
+                        text-align: right;
+                    &-sale
+                        margin-top: 15px
+                        +bold
+                        font-size: 42px;
+                        text-align: right;
+                        text-transform: uppercase;
+                        color: #D84033;
+        &__slider
+            display: flex
+            margin-top: 260px
+            justify-content: center
+            &__item 
+                margin-right: 15px
+                display: block
+                width: 40px;
+                height: 7px;
+                background: #CECECE;
+                &:last-child
+                    margin-right: 0px
+                &--active
+                    background: $primary
+
+
+
+
+
+
+
+
+
+
+
+
+
