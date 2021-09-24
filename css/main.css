@@ -342,6 +342,7 @@ template {
   max-width: 1170px;
   margin: 0 auto;
   box-sizing: border-box;
+  height: 100%;
 }
 
 .button {
@@ -512,5 +513,45 @@ template {
 
 .header__hero__slider__item--active {
   background: #D7B399;
+}
+
+.section {
+  background: #212121;
+  height: 235px;
+  width: 100%;
+}
+
+.section__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__content__title {
+  font-size: 30px;
+  color: #fff;
+}
+
+.section__content__title--bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.section__content__title--regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.section__content__subtitle {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  font-size: 21px;
+  margin-top: 23px;
 }
 /*# sourceMappingURL=main.css.map */
