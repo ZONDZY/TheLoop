@@ -206,7 +206,7 @@ button,
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type="submit"]::-moz-focus-inner { 
   border-style: none;
   padding: 0;
 }
@@ -238,11 +238,11 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 2 */
   color: inherit; /* 2 */
-  display: table; /* 1 */
+  display: table; /* 2 */
   max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
+  padding: 0; /* 1 */
   white-space: normal; /* 1 */
 }
 
@@ -306,7 +306,7 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
+  -webkit-appearance: button; /* 3 */
   font: inherit; /* 2 */
 }
 
